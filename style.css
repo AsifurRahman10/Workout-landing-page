@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    margin: 2px 0;
+
+}
+.logo{
+    color: #89C5CC;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    margin-right: 320px;
+    margin-left: 32px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #1F1534;
+    font-size: 9px;
+    padding-left : 20px 
+    
+}
+
+.navbar{
+    width: 90%;
+}
+
+.text-information{
+    width: 40%;
+    /* padding-top: 30px; */
+    margin-left: 20px;
+}
+.image{
+    width: 40%;
+}
+img{
+    /* height: 100px; */
+    width: 100%;
+
+}
+
+.content{
+    display: flex;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    color: rgb(99, 239, 239);
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+p{
+    font-size: 9px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #7D7987;
+}
+
+.btn{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;    
+    font-style: normal;
+    background-color: #69B99D;
+    border: none;
+    border-radius: 2px;
+    font-size: 6px;
+    color: white;
+    padding: 3px 5px;
+     
+}
+
+footer{
+    text-align: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-top: 10px;
+}
+.footer-text{
+    color: white;
+    font-size: 5px;
+    padding: 5px;
+}
